@@ -1,0 +1,162 @@
+AI MS is for roles of  AI engineer, AI product manager, or technical lead. Then grow into senior engineer, architect, and technical leadership roles through delivery experience. Your cloud architecture and full stack experience suit agent systems, tool integrations, evaluation, security, and deployment.
+
+
+MSc AI and Machine Learning can build the underlying ML depth. 
+Would you like to build agents for enterprise workflows or customer facing products? 
+
+
+Explain the difference.
+
+
+Enterprise workflow agents automate internal work such as support, reporting, compliance, and operations. 
+
+
+Customer facing agents interact directly with users through chat, recommendations, onboarding, or service. 
+
+
+With your Azure and architecture background, enterprise agents may be a natural first step. 
+
+Which type of business problem would you most enjoy solving? 
+
+I will enjoy anything (both)
+
+Both options suit your broad technical background. 
+
+
+Enterprise agents can build credibility through secure Azure integrations, while customer agents strengthen product and user experience skills. Start with enterprise projects, then add customer facing work to your portfolio. 
+
+
+Would you like a practical six month roadmap towards your first production style AI agent? 
+
+
+1) Start with:
+
+[ agent foundations and build weekly.] 
+
+2) Months one and two learn:
+
+[ Python, LLM APIs, prompting, RAG, evaluation, and Azure AI.]
+
+3) Months three and four build secure [internal workflow agents] with tools and data. 
+
+4) Months five and six deploy two [portfolio projects, document architecture, and apply for remote AI engineer roles.]
+
+[ Use 32 project hours to build an Azure hosted internal knowledge agent with document search, tool use, authentication, logging, tests, and deployment.]
+
+[By week eight, publish architecture notes and a demo. Would you like a detailed week by week schedule?]
+ 
+
+Would you like a roadmap tailored to your available weekly study hours? Great, I can tailor it around your schedule. How many hours each week can you realistically study, and are your weekends available for project work? I can study 12 hours a week. I can work 32 hours for project. That schedule can support strong progress. Study twelve weekly hours on AI foundations and use thirty two project hours to build deployable Azure agent portfolios. 
+
+
+Would you like a weekly plan for your first eight weeks? Yes. Your first eight weeks can build momentum. 
+
+1) Start with one enterprise workflow agent, then one customer facing agent with evaluation and security. 
+
+2) Spend 12 study hours weekly on Python for AI, LLM APIs, RAG, agents, evaluation, and Azure AI. 
+
+
+Which will be the technology?
+
+
+
+1) Backend Python, frontend for the project will be flask? Or Python based any frontend (react)? Use Python FastAPI backend and React frontend.
+
+2) Auth (will be self build or any framework like identity); will my own implementation?   Use Azure Entra ID or Auth0 rather than building authentication yourself. 
+
+3) For the agent, use Azure OpenAI, Azure AI Search, PostgreSQL, and Docker deployment. This reflects real enterprise practice and suits your Azure experience. 
+
+Would you prefer an Azure focused portfolio project or a cloud neutral one? I want to do cloud neutral at present moment. I don't have any credit card to use azure. So, it will be good for me to finish with out any cloud deployments.
+
+
+[ You can build everything locally without cloud services. Use Python FastAPI, React, Docker, Ollama for local models, Chroma or PostgreSQL with pgvector for RAG, and Keycloak for authentication. Deploy locally with Docker Compose and document the architecture, tests, security, and setup clearly. Later you can migrate to any cloud.]
+
+
+1) Would you prefer a business document agent or a customer support agent first? 
+
+2) What is the role of the agent with this project?
+
+
+> The agent retrieves documents, reasons over requests, and uses approved tools to complete tasks. For example, it could answer policy questions, create summaries, draft replies, or open a support ticket. You define its tools, permissions, memory, guardrails, and evaluation. 
+Which project domain interests you most: HR, finance, sales, or customer support? 
+
+
+sales, finance and customer 
+
+Sales, finance, and support work well together. 
+
+
+
+1) Build a revenue operations agent that answers product and policy questions, qualifies sales leads, drafts follow ups, and creates support tickets. 
+
+2) Keep finance actions read only, such as invoice status or payment summaries, with clear approval safeguards. 
+
+3) Which area would you like as the main focus for your first project? (revenue operation agent)
+
+A revenue operations agent is an excellent portfolio project. 
+
+It can qualify leads, answer customer questions, summaries account activity, draft sales follow ups, and show read only invoice information. 
+
+You can build it locally with FastAPI, React, Ollama, PostgreSQL, pgvector, Keycloak, and Docker Compose. 
+
+Would you like the project architecture and feature plan next? Will it be from database, the queries from and generate read only invoices?
+
+
+Document search means to give speech/text chat to provide enterprise database related agent like the forms which we used to use in past in enterprise software-based?
+
+Here, the agent will do the repetitive jobs? Yes, it combines database queries and document search. The agent gives chat or voice access to approved business data, replaces repetitive form based lookups, and drafts routine outputs. 
+
+Invoice access stays read only, while human approval controls actions. Which repetitive revenue operations task would save your team most time?
+ 
+Create a sale to customer and report that a client is ready to buy. That is a strong agent workflow. It can detect buying intent, collect required details, create a draft sale, and notify the sales team for approval. Keep final sale creation human approved, with an audit record. 
+
+Would you want it to work from customer chat messages, uploaded enquiries, or both? Customer chat messages. Customer chat messages are ideal for this workflow. 
+
+The agent can identify purchase intent, ask qualifying questions, capture customer details, create a draft sales record, and alert a salesperson for approval. 
+
+It should never confirm a sale without human review. Would you like the exact chat flow and database schema next? 
+
+yes
+
+
+The chat flow can be simple and realistic. 
+
+
+The agent detects buying intent, asks for product, quantity, budget, delivery details, and contact information. 
+
+
+It then creates a draft order and alerts sales for approval. 
+
+
+Use tables for customers, products, chat messages, sales leads, draft orders, order items, and approval logs. 
+
+
+Would you like a starter FastAPI database model next? 
+
+
+I will work with you later. I got the initial study and project summary. We will discuss the project details in next session. Great, you now have a clear direction. We can refine the revenue operations agent, database model, and build plan next session. What date would you like to begin the detailed project work? Today, may be a good date after 8 to 10 hours. That sounds like a productive plan today. 
+
+Take time to review your notes, then return in eight to ten hours and we will design the workflow, database, and local build steps. 
+
+What part would you like to start with then, chat flow or database design? We will start with chat flow. what is the initial study work for the first hours? Start by mapping one complete customer journey. Review how customers ask to buy, what details sales staff collect, and when a lead becomes ready. 
+
+>>> Write ten sample chat conversations and label intent, missing information, and final outcome. 
+
+>>> Also list products, prices, stock rules, and approval steps. Would your agent sell one product type or several? 
+
+
+Got the study points. Thanks. Glad the study points helped you prepare. When you return, we can turn your customer journey notes into a practical chat flow. What product or service will your revenue operations agent support? We will come back to work soon.
+
+
+thanks
+
+
+You are very welcome, speak again soon. What industry will your customer chat agent support? 
+
+
+Bye.
+
+
+See you after 7 to 9 hours. Goodbye, I look forward to continuing later. 
+
+

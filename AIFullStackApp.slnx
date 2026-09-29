@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Project Path="backend/backend.pyproj" Type="888888a0-9f3d-457c-b088-3a5042f75d52" Id="d3211829-1570-4ee4-a007-082e3c270649">
+    <Build Project="false" />
+  </Project>
+  <Project Path="frontend/frontend.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>

@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:16-alpine           # Tells Docker to pull the ultra-lightweight Alpine Linux image
+    container_name: lightweight_postgres_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres           # Master Database Admin Username
+      POSTGRES_PASSWORD: yoursecurepassword # Master Database Admin Password
+      POSTGRES_DB: ollama_db            # Name of the database to create automatically
+    ports:
+      - "5432:5432"                     # Exposes the port so your local FastAPI can see it
+    volumes:
+      - pg_data:/var/lib/postgresql/data # Saves your data safely on your laptop hard drive
+
+volumes:
+  pg_data:                              # Keeps your database tables intact when container restarts
