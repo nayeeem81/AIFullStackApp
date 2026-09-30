@@ -61,7 +61,7 @@ Would you like a weekly plan for your first eight weeks? Yes. Your first eight w
 2) Spend 12 study hours weekly on Python for AI, LLM APIs, RAG, agents, evaluation, and Azure AI. 
 
 
-## Which will be the technology?
+Which will be the technology?
 
 
 1) Backend Python, frontend for the project will be flask? Or Python based any frontend (react)? Use Python FastAPI backend and React frontend.
@@ -132,7 +132,7 @@ It should never confirm a sale without human review. Would you like the exact ch
 
 yes
 
-### The chat flow can be simple and realistic. 
+The chat flow can be simple and realistic. 
 
 1) The agent detects buying intent,
 2) asks for product, quantity, budget, delivery details,
@@ -180,7 +180,13 @@ You are very welcome, speak again soon.
 Bye. See you after 7 to 9 hours. Goodbye, I look forward to continuing later. 
 
 
-### Project: Create a Sales Agent (Products and services):
+
+
+
+
+
+
+# Project: Create a Sales Agent (Products and services):
 
 1) Digital Card
 2) Achievement Plates
@@ -196,9 +202,16 @@ Bye. See you after 7 to 9 hours. Goodbye, I look forward to continuing later.
 
 
 
+
+
+
 # AI Full Stack App
 
 ## Create the solution structure and follow the steps below to set up the AIFullStackApp in Visual Studio:
+
+
+
+
 
 ## Environment Setup
 
