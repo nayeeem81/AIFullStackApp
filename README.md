@@ -222,11 +222,11 @@ When you run the installer from the official Node.js website, npm (Node Package 
 4) Once the installer finishes running on your laptop, you can check that both are successfully installed and linked together. After install, in (win + r) cmd; command terminal write following command to check the version of node.js: 
 node -v
 npm -v
-4) Download Olamma and install. Check that the Ollama is installed ad present in thesystem tray in the laptop.
+4) Download Olamma and install. Check that the Ollama is installed ad present in the system tray in the laptop.
 5) Then, pull lamma3 model. Write following commands to pull and check lamma3 is running.
 ollama pull llama3 (this command will pull the model, which we use for chat)
 ollama run llama3 (check if the lamma3 is running. You can chat after this command.)
-6) Install WSL. We will use light weight posgre sql included in the solution, we will create. Useing theDocker comose we willrunnthe image of posgres sql linux based image. Download the wsl .msi in the local laptop ad restart the laptop.Then, oenthe command prompt and run: wsl --status
+6) Install WSL. We will use light weight posgre sql included in the solution, we will create. Useing theDocker comose we willrunnthe image of posgres sql linux based image. Download the wsl .msi in the local laptop ad restart the laptop.Then, open the command prompt and run: wsl --status
 7) Install Docker desktop to use as the container of the postgres sql image.
 
 ## Visual Studio Solution (two projects: frontend and backend)
@@ -236,13 +236,68 @@ ollama run llama3 (check if the lamma3 is running. You can chat after this comma
 11) In the backend project, add a new folder app. Inside the app folder, create a python file named main.py. In the backend project, add a file: requirements.txt (check the package names).
 12) Right click on the Python Environments and click Add Environment. Name the environment: .venv in the textbox of the popup window of the create environment. Click Create. The packages will install from the requirements file. In Powershell inside the Visual Studio run:
 
-C:\VisualStudioPyProjects\AIFullStackApp\backend>.venv\Scripts\activate
-(.venv) C:\VisualStudioPyProjects\AIFullStackApp\backend>
+PS C:\VisualStudioPyProjects\AIFullStackApp\backend> python -m venv .venv
+>>
+PS C:\VisualStudioPyProjects\AIFullStackApp\backend> .\.venv\Scripts\Activate.ps1
+>>
+(.venv) PS C:\VisualStudioPyProjects\AIFullStackApp\backend>
+>>
+
+
+(.venv) PS C:\VisualStudioPyProjects\AIFullStackApp\backend\app> cd..
+>>
+
+
+(.venv) PS C:\VisualStudioPyProjects\AIFullStackApp\backend> pip install -r requirements.txt
+>>
+
+
+
+(.venv) PS C:\VisualStudioPyProjects\AIFullStackApp> docker compose up -d
+
+
+WARN[0000] C:\VisualStudioPyProjects\AIFullStackApp\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+>>
+
+## Open the Docker Desktop & Run Following Commands
+
+(.venv) PS C:\VisualStudioPyProjects\AIFullStackApp> docker ps
+>>
+
+CONTAINER ID   IMAGE                COMMAND                  CREATED        STATUS          PORTS                                         NAMES
+ab74c547a75a   postgres:16-alpine   "docker-entrypoint.s…"   30 hours ago   Up 38 seconds   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp   lightweight_postgres_db
+(.venv) PS C:\VisualStudioPyProjects\AIFullStackApp>
+
+>>
+(.venv) PS C:\VisualStudioPyProjects\AIFullStackApp> docker compose up -d
+
+>>
+
+WARN[0000] C:\VisualStudioPyProjects\AIFullStackApp\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion
+[+] up 1/1
+ ✔ Container lightweight_postgres_db Running                                                                                                                     0.0s
+
+ >>
+
+ (.venv) PS C:\VisualStudioPyProjects\AIFullStackApp> cd backend
+  >>
+
+(.venv) PS C:\VisualStudioPyProjects\AIFullStackApp\backend>
+>> uvicorn app.main:app --reload --port 8000
+
+INFO:     Will watch for changes in these directories: ['C:\\VisualStudioPyProjects\\AIFullStackApp\\backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [22876] using StatReload
+INFO:     Started server process [20300]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+
 
 13) In the frontend project; right click over the packages inside the Dependencies and click restore packages. The npm modules will be installed and restored.
 12) Check the the code of main.py and App.jsx
 13) Right click over the solution and click the Property item over the context menu. In Configure Startup Projects menu: multiple startup projects; select start (in the dropdown) for both projects.
-14) Add a file in the solution root. Right click the solution; click add new file. Add a text file. Name it: docker-compose.yml. Check the code. Run the follwig command in Git Bash (command terminal): docker compose up -d. The command will pull te wsl image for postgre sql to use for the backend.We provided a name for database in the .yml file.
+14) Add a file in the solution root. Right click the solution; click add new file. Add a text file. Name it: docker-compose.yml. Check the code. Run the follwing command in Git Bash (command terminal): docker compose up -d. The command will pull te wsl image for postgre sql to use for the backend. We provided a name for database in the .yml file.
 
 
 
