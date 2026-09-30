@@ -1,3 +1,34 @@
+[London School of Innovation](https://lsi.ac.uk/msc/artificial-intelligence?utm_source=linkedin&utm_medium=msg&utm_campaign=msc_ai_scholarship_bng&li_fat_id=e0931dd5-a04d-42d8-9734-ea837cc1d2d2)
+
+Dear Naim,
+
+
+
+You may qualify for a scholarship to study for a UK Master's degree in Artificial Intelligence at the London School of Innovation (LSI).
+
+
+
+Our MSc in AI is designed for ambitious professionals looking to advance their careers, develop in-demand AI expertise, and take advantage of the opportunities emerging in the AI-driven economy.
+
+
+
+You can choose between our 2 AI pathways: Technical AI and Business AI, depending on your career aspirations.
+
+
+
+The programme is delivered 100% online, with full-time and part-time study options to fit around your professional commitments and affordable monthly payments for remaining tuition fees after scholarship.
+
+
+
+Kind regards,
+
+David Langford
+
+London School of Innovation
+
+
+
+
 # AIFullStackApp
 
 # Create the solution structure and follow the steps below to set up the AIFullStackApp in Visual Studio:
@@ -185,6 +216,23 @@ thanks
 You are very welcome, speak again soon.
 
 Bye. See you after 7 to 9 hours. Goodbye, I look forward to continuing later. 
+
+# Project: Create a Sales Agent (Products and services):
+
+1) Digital Card
+2) Achievement Plates
+3) Photos (social media)
+4) App Banner Maker
+5) Photo Fixer (Product Photo)
+6) Layout Mixers (Website)
+7) All Taken From (Folder, Social media: photo, video)
+8) Month Content Activity Video Maker
+9) Easy Finder (Social Media, Folders)
+10) Invoice Maker
+11) Text Comments of Products
+
+
+
 
 
 
