@@ -186,5 +186,22 @@ You are very welcome, speak again soon.
 
 Bye. See you after 7 to 9 hours. Goodbye, I look forward to continuing later. 
 
+# Project: Create a Sales Agent (Products and services):
+
+1) Digital Card
+2) Achievement Plates
+3) Photos (social media)
+4) App Banner Maker
+5) Photo Fixer (Product Photo)
+6) Layout Mixers (Website)
+7) All Taken From (Folder, Social media: photo, video)
+8) Month Content Activity Video Maker
+9) Easy Finder (Social Media, Folders)
+10) Invoice Maker
+11) Text Comments of Products
+
+
+
+
 
 
